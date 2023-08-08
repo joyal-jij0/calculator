@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#calculator{
+    padding-top: 100px;
+
+}
+
+#ans{
+    background-color:#85c1d4;
+    border: solid black;
+    font-size: 44px;
+    padding-top: 35px;
+    padding-bottom: 0;
+    text-align: right;
+    width: 318px;
+    margin: 0;
+    height: 44px;
+}
+
+.row{
+    display: flex;
+}
+
+.button{
+    border: solid black;
+    width: 75px;
+    max-height: 65px;
+    font-size: 40px;
+    padding-top: 21px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color:#cdcdcd;
+}
+#zero{
+    width: 156px;
+}
